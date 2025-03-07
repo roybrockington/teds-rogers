@@ -1,0 +1,18 @@
+---
+import ssgLogo from '../../public/ssg_logo.png'
+import { Image } from 'astro:assets';
+---
+
+<footer class="w-full flex flex-col items-center px-3 h-48 justify-center bg-[url('../../public/teds_header.png')]">
+    <div class="flex gap-4 items-center">
+        <Image src={ssgLogo} alt="Dixon Drums" class="h-6 w-auto" />
+        <div class="flex flex-col justify-center"> 
+            <span class="text-white text-xs uppercase font-thin">Distributed by</span>
+            <h2 class="text-white text-lg uppercase font-thin">Sound Service Europe</h2>
+        </div>
+
+    </div>
+    <a class="border border-white text-white font-thin rounded text-sm py-1 px-3 mt-6 hover:bg-white hover:text-indigo-700" href="https://www.sound-service.eu">
+        🌍 https://www.sound-service.eu
+    </a>
+</footer>

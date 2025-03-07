@@ -1,0 +1,14 @@
+---
+import { Image } from "astro:assets";
+
+const { title, code, link, image, price } = Astro.props;
+---
+
+<article class="card w-40 h-72 flex flex-col p-3 border rounded-xl">
+    <p class="w-full flex justify-center">
+        <Image alt={title} src={"https://media.sound-service.eu/Artikelbilder/Shopsystem/96x52/" + image + ".jpg"} width="96" height="52" />
+    </p>
+    <h4 class="font-bold text-lg my-3">{title}</h2>
+        <p class="font-thin mt-auto mb-2">RRP €{price} inc vat</p>
+        <a href={link} class="bg-indigo-800 text-white px-3 py-2 rounded-xl">More info →</a>
+</article>

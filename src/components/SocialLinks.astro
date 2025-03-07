@@ -1,0 +1,11 @@
+---
+import Social from './Social.astro';
+import socials from "../assets/socials.json";
+---
+
+<p class="flex flex-col md:flex-row gap-4 my-5">
+    {socials.map(social =>
+    <Social {...social} />
+)}
+</p>
+

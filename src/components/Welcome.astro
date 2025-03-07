@@ -1,0 +1,87 @@
+---
+import Header from './Header.astro';
+import snares from "../assets/snares.json";
+import drumsets from "../assets/drumsets.json";
+import hardware from "../assets/hardware.json";
+import Snare from './Snare.astro';
+import DrumSet from './DrumSet.astro';
+import Footer from './Footer.astro';
+import SocialLinks from './SocialLinks.astro';
+import Hardware from './Hardware.astro';
+import Video from '../../public/dixon_landing_teds25.mp4'
+---
+
+<div id="container">
+
+    <Header />
+
+        <video class="w-full" autoPlay playsinline muted loop>
+            <source src={Video} type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+
+    <section id='intro' class="flex flex-col items-center gap-4 px-8">
+        <SocialLinks />
+        <h1 class="text-2xl font-bold uppercase">
+            Dixon and Sound Service Europe would like to thank you for your visit!
+        </h1>
+        <div class="w-fit flex gap-3 flex-col">
+        <p>
+            It was great to see you at the Dixon/Rogers booth.
+        </p>
+        <p>
+            Discover all the incredible kits and snares on display at the links below.
+        </p>
+        </div>
+        <p class="flex font-semibold items-center gap-4 w-full justify-center bg-indigo-50 rounded py-2 my-4">
+            Questions?
+            <a href="https://www.sound-service.eu/contact" class="border border-indigo-800 text-indigo-800 px-3 rounded-lg mt-auto hover:text-white hover:bg-indigo-700">Contact us</a>
+        </p>
+
+        <h2 class="font-bold text-xl">Featured Kit</h2>
+    </section>
+
+    <section id="snares" class="flex flex-col gap-6 items-center px-4">
+        <h3 class="text-2xl uppercase font-thin border-t mt-4 pt-4 w-full text-center">Snares</h3>
+        <div class="flex gap-3 flex-wrap justify-center">
+            {snares.map((snare) => (
+            <Snare
+                key={snare.code}
+                {...snare}
+            />
+            ))}
+        </div>
+    </section>
+
+    <section id="drumsets" class="flex flex-col gap-6 items-center px-4">
+        <h3 class="text-2xl uppercase font-thin border-t mt-4 pt-4 w-full text-center">Drum Sets</h3>
+        <div class="flex gap-3 flex-wrap justify-center">
+            {drumsets.map((drumset) => (
+            <DrumSet
+                key={drumset.code}
+                {...drumset}
+            />
+            ))}
+        </div>
+    </section>
+
+    <section id="hardware" class="flex flex-col gap-6 items-center px-4">
+        <h3 class="text-2xl uppercase font-thin border-t mt-4 pt-4 w-full text-center">Hardware</h3>
+        <div class="flex gap-3 flex-wrap justify-center">
+            {hardware.map((hw) => (
+            <Hardware
+                key={hw.code}
+                {...hw}
+            />
+            ))}
+        </div>
+    </section>
+    <section class="my-6 uppercase font-thin text-xl flex justify-center">
+        <a class="border border-indigo-400 text-indigo-800 hover:text-white hover:bg-indigo-800 font-thin rounded text-sm py-3 px-3 my-6 href="https://playdixon.com/">
+            🥁 Full product catalogue at Playdixon.com
+        </a>
+    </section>
+
+    <Footer />
+
+</div>

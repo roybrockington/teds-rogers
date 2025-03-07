@@ -1,0 +1,20 @@
+---
+import { Image } from "astro:assets";
+const {platform, id} = Astro.props;
+import ytlogo from "../assets/youtube.svg"
+import fblogo from "../assets/facebook.svg"
+import iglogo from "../assets/instagram.svg"
+---
+
+<a href={"https://www." + platform + ".com/" + id} class="flex items-center gap-2">
+    {platform == "facebook" &&
+    <Image src={fblogo} alt="Dixon {platform}" class="w-10 h-10 "/> 
+    }
+    {platform == "instagram" &&
+    <Image src={iglogo} alt="Dixon {platform}" class="w-10 h-10 "/> 
+    }
+{platform == "youtube" &&
+    <Image src={ytlogo} alt="Dixon {platform}" class="w-10 h-10 "/> 
+}
+    <span class="uppercase text-xs font-thin">@{id}</span>
+</a>
