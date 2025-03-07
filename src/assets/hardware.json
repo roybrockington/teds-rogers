@@ -1,177 +1,58 @@
 [
  {
-   "title": "Single Braced Cymbal Boom Stand PSY-P0SI",
-   "code": 10009319,
-   "link": "https://playdixon.com/product/psy-p0si/",
-   "price": 55.9,
-   "image": "PSY-P0IS"
+   "title": "PowerTone Wood 14’’x8’’",
+   "code": 10011226,
+   "link": "https://rogersdrumsusa.com/powertone-wood-shell-snare-drum-piano-black/",
+   "price": 535,
+   "image": "10011226_1"
  },
  {
-   "title": "Single Braced Cymbal Stand PSY-P0S ",
-   "code": 10009320,
-   "link": "https://playdixon.com/product/psy-p0s/",
-   "price": 43.9,
-   "image": "PSY-P0S"
+   "title": "PowerTone Wood 14’’x5’’",
+   "code": 10011223,
+   "link": "https://rogersdrumsusa.com/powertone-wood-shell-snare-drum-satin-natural/",
+   "price": 510,
+   "image": "10011223_1"
  },
  {
-   "title": "Single Braced Snare Stand PSS-P0S",
-   "code": 10009321,
-   "link": "https://playdixon.com/product/pss-p0s/",
-   "price": 50.9,
-   "image": "PSS-P0S"
+   "title": "PowerTone Wood 14’’x5’’",
+   "code": 10011229,
+   "link": "https://rogersdrumsusa.com/powertone-steel-shell-snare-drum/",
+   "price": 515,
+   "image": "10011229_1"
  },
  {
-   "title": "Single Braced Hi-Hat Stand PSH-P0S",
-   "code": 10009322,
-   "link": "https://playdixon.com/product/psh-p0s/",
-   "price": 68,
-   "image": "PSH-P0S"
+   "title": "PowerTone Wood 14’’x6,5’’",
+   "code": 10011813,
+   "link": "https://www.sound-service.eu/rogers-no-26-cs-powertone-snare-14x6-5",
+   "price": 735,
+   "image": "26-CS-4-HI"
  },
  {
-   "title": "Medium Cymbal Boom Stand PSY-P2I ",
-   "code": 10006570,
-   "link": "https://playdixon.com/product/psy-p2i/",
-   "price": 89,
-   "image": "PSY-P2I"
+   "title": "SuperTen Wood 14’’x5’’",
+   "code": 10012363,
+   "link": "https://rogersdrumsusa.com/super-ten-wood-shell-snare-drum-green-sparkle/",
+   "price": 989,
+   "image": "ST-36GNS-3-HI"
  },
  {
-   "title": "Medium Snare Drum Stand PSS-P2",
-   "code": 10006575,
-   "link": "https://playdixon.com/product/pss-p2/",
-   "price": 76,
-   "image": "PSS-P2"
+   "title": "SuperTen Wood 14’’x6,5’’",
+   "code": 10012366,
+   "link": "https://rogersdrumsusa.com/super-ten-wood-shell-snare-drum-gold-sparkle/",
+   "price": 1025,
+   "image": "ST-37GS-3-HI"
  },
  {
-   "title": "Medium Hi-Hat Stand PSH-P2",
-   "code": 10006594,
-   "link": "https://playdixon.com/product/psh-p2/",
-   "price": 112,
-   "image": "PSH-P2"
+   "title": "Dyna-Sonic 14’’x6,5’’",
+   "code": 10012356,
+   "link": "https://rogersdrumsusa.com/model-no-37-bs-beavertail-snare-drum/",
+   "price": 1099,
+   "image": "37BS-3-HI"
  },
  {
-   "title": "Short Cymbal Arm PYH-CM",
-   "code": 10006728,
-   "link": "https://playdixon.com/product/pyh-cm/",
-   "price": null,
-   "image": "PYH-CM"
- },
- {
-   "title": "Hydraulic Drum Throne PSN-12HM",
-   "code": 10006589,
-   "link": "https://playdixon.com/product/psn-12hm/",
-   "price": 225,
-   "image": "PSN-12HM"
- },
- {
-   "title": "Motorcycle Drum Throne Blue/White PSN-13BW",
-   "code": 10006586,
-   "link": "https://drummersonly.co.uk/product/dixon-psn-13bw-motorcycle-throne-blue-white",
-   "price": 199,
-   "image": "PSN-13BW"
- },
- {
-   "title": "Motorcycle Drum Throne Red/White PSN-13RW",
-   "code": 10006585,
-   "link": "https://playdixon.com/product/psn-13rw/",
-   "price": 199,
-   "image": "PSN-13RW"
- },
- {
-   "title": "Motorcycle Drum Throne Purple Sparkle PSN-13PS",
-   "code": 10009466,
-   "link": "https://playdixon.com/product/psn-13ps/",
-   "price": 199,
-   "image": "PSN-13PS"
- },
- {
-   "title": "Round Drum Throne PSN-901",
-   "code": 1001537,
-   "link": "https://www.sound-service.eu/dixon-psn-901-round-throne",
-   "price": 149,
-   "image": "10010537_1"
- },
- {
-   "title": "Round Drum Throne PSN-902",
-   "code": 10010538,
-   "link": "https://www.sound-service.eu/dixon-psn-902-round-throne",
-   "price": 149,
-   "image": "10010538_1"
- },
- {
-   "title": "Round Drum Throne PSN-903",
-   "code": 10012708,
-   "link": "https://playdixon.com/product/psn-903/",
-   "price": 149,
-   "image": "PSN-903"
- },
- {
-   "title": "Premium Hi-Hat Stand PSH-K900-KS",
-   "code": 10003791,
-   "link": "https://playdixon.com/product/psh-k900-ks/",
-   "price": 229,
-   "image": "PSH-K900-KS"
- },
- {
-   "title": "Premium Cymbal Boom Stand PSY-K900I-KS",
-   "code": 10003778,
-   "link": "https://playdixon.com/product/psy-k900i-ks/",
-   "price": 159,
-   "image": "PSY-K900I-KS"
- },
- {
-   "title": "Premium Snare Drum Stand PSS-K900-KS",
-   "code": 10003801,
-   "link": "https://playdixon.com/product/pss-k900-ks/",
-   "price": 129,
-   "image": "PSS-K900-KS"
- },
- {
-   "title": "Standard Cymbal Boom Stand PSY-P1I",
-   "code": 10006572,
-   "link": "https://playdixon.com/product/psy-p1i/",
-   "price": 74,
-   "image": "PSY-P1I"
- },
- {
-   "title": "Standard Cymbal Stand PSY-P1",
-   "code": 10006573,
-   "link": "https://playdixon.com/product/psy-p1/",
-   "price": 67.9,
-   "image": "PSY-P1"
- },
- {
-   "title": "Standard Hi-Hat Stand PSH-P1",
-   "code": 10006595,
-   "link": "https://playdixon.com/product/psh-p1/",
-   "price": 95,
-   "image": "PSH-P1"
- },
- {
-   "title": "Single Pedal PP-P2",
-   "code": 10006606,
-   "link": "https://playdixon.com/product/pp-p2/",
-   "price": 115,
-   "image": "PP-P2"
- },
- {
-   "title": "Double Pedal PP-P2D",
-   "code": 10006605,
-   "link": "https://playdixon.com/product/pp-p2d/",
-   "price": 240,
-   "image": "PP-P2D"
- },
- {
-   "title": "Single Pedal PP-P1",
-   "code": 10006608,
-   "link": "https://playdixon.com/?s=PP-P1&post_type=product",
-   "price": 80,
-   "image": "PP-P1"
- },
- {
-   "title": "Precision Coil Direct Drive PP-PCP1D",
-   "code": 10006603,
-   "link": "https://playdixon.com/product/pp-pcp1d/",
-   "price": 215,
-   "image": "PP-PCP1D"
+   "title": "Dyna-Sonic 7 Line 14’’x5’’",
+   "code": 10011297,
+   "link": "https://rogersdrumsusa.com/dynasonic-aluminum-snare-drum/",
+   "price": 1135,
+   "image": "10011297"
  }
 ]

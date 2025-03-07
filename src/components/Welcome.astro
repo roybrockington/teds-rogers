@@ -8,14 +8,14 @@ import DrumSet from './DrumSet.astro';
 import Footer from './Footer.astro';
 import SocialLinks from './SocialLinks.astro';
 import Hardware from './Hardware.astro';
-import Video from '../../public/dixon_landing_teds25.mp4'
+import Video from '../../public/rogers_landing_teds25.mp4'
 ---
 
 <div id="container">
 
     <Header />
 
-        <video class="w-full" autoPlay playsinline muted loop>
+        <video class="w-full bg-gray-400" autoPlay playsinline muted loop>
             <source src={Video} type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -23,7 +23,7 @@ import Video from '../../public/dixon_landing_teds25.mp4'
     <section id='intro' class="flex flex-col items-center gap-4 px-8">
         <SocialLinks />
         <h1 class="text-2xl font-bold uppercase">
-            Dixon and Sound Service Europe would like to thank you for your visit!
+            Rogers and Sound Service Europe would like to thank you for your visit!
         </h1>
         <div class="w-fit flex gap-3 flex-col">
         <p>
@@ -77,8 +77,8 @@ import Video from '../../public/dixon_landing_teds25.mp4'
         </div>
     </section>
     <section class="my-6 uppercase font-thin text-xl flex justify-center">
-        <a class="border border-indigo-400 text-indigo-800 hover:text-white hover:bg-indigo-800 font-thin rounded text-sm py-3 px-3 my-6 href="https://playdixon.com/">
-            🥁 Full product catalogue at Playdixon.com
+        <a class="border border-indigo-400 text-indigo-800 hover:text-white hover:bg-indigo-800 font-thin rounded text-sm py-3 px-3 my-6" href="https://playdixon.com/">
+            🥁 Full product catalogue at RogersDrumsUSA.com
         </a>
     </section>
 
