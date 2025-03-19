@@ -8,17 +8,17 @@ import DrumSet from './DrumSet.astro';
 import Footer from './Footer.astro';
 import SocialLinks from './SocialLinks.astro';
 import Hardware from './Hardware.astro';
-//import Video from '../../public/rogers_landing_teds25.mp4'
+import Video from '../../public/rogers_landing_teds25.mp4'
 ---
 
 <div id="container">
 
     <Header />
 
-<!--       <video class="w-full bg-gray-400" autoPlay playsinline muted loop>
-            <source src={Video} type="video/mp4">
-          Your browser does not support the video tag.
-</video> -->
+    <video class="w-full bg-gray-400" autoPlay playsinline muted loop>
+        <source src={Video} type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
 
     <section id='intro' class="flex flex-col items-center gap-4 px-8">
         <SocialLinks />
